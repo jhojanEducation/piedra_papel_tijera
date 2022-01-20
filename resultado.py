@@ -1,8 +1,10 @@
 from random import choice
 import os
+import logica
+import main
 
 def result(election, option):
-    result = game(election, option)
+    result = logica.game(election, option)
     if result:
         os.system('cls')
         print(f"""      
@@ -16,6 +18,6 @@ def result(election, option):
         again = again.lower().replace('í', 'i')
 
         if again == 'si':
-            options("")
+            main.options("")
         else:
             return

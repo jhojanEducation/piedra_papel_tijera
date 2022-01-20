@@ -1,6 +1,6 @@
 from random import choice
 import os
-        
+import resultado
     
 def options(error):
     os.system('cls')
@@ -56,7 +56,7 @@ def options(error):
         ia = ['PIEDRA', 'PAPEL', 'TIJERA']
         option = choice(ia)
         
-        result(election, option)
+        resultado.result(election, option)
         
     
     except ValueError:
