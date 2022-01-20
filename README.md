@@ -1,5 +1,4 @@
-# PIEDRA - PAPEL - TIJERA 
-# HECHO CON PYTHON
+# PIEDRA - PAPEL - TIJERA  -  ## HECHO CON PYTHON
 ## Juego para la terminal de comandos
 
 ![N|Solid](https://cosasdedevs.com/media/sections/images/python.png)
